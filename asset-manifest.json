@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.c45cc4ce.css",
+    "main.js": "/react-gh-pages/static/js/main.48b81679.js",
+    "static/media/background.jpg": "/react-gh-pages/static/media/background.c1f5d3ba7e204fce8a5e.jpg",
+    "static/media/iphone.png": "/react-gh-pages/static/media/iphone.080029ada53f0cd57453.png",
+    "static/media/gradient.png": "/react-gh-pages/static/media/gradient.12a666ed10b3b442b534.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.c45cc4ce.css.map": "/react-gh-pages/static/css/main.c45cc4ce.css.map",
+    "main.48b81679.js.map": "/react-gh-pages/static/js/main.48b81679.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c45cc4ce.css",
+    "static/js/main.48b81679.js"
+  ]
+}
