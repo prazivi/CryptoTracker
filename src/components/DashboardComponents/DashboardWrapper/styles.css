@@ -1,0 +1,41 @@
+.tabs-wrapper {
+  width: 100vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-flex {
+  display: flex;
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-table {
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  overflow-x: auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-flex {
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .list-table {
+    padding-top: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}

@@ -1,0 +1,134 @@
+.flex-wrapper {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 90vh;
+}
+
+.big-heading {
+  font-size: 8rem;
+  margin-bottom: 0px;
+}
+
+.big-heading-g {
+  color: var(--gold);
+}
+
+.para {
+  color: var(--grey);
+}
+
+.button-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0rem;
+  gap: 2rem;
+}
+
+.stroke:hover {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--white);
+  color: transparent;
+  transition: all 0.5s;
+}
+
+.img-box {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  right: 5rem;
+  margin-top: 2rem;
+}
+
+.phone {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 270px;
+}
+
+.gradient {
+  position: absolute;
+  width: 55%;
+  object-fit: contain;
+  top: 7rem;
+  right: 0rem;
+  min-width: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .big-heading {
+    font-size: 5rem;
+  }
+
+  .img-box {
+    width: 50%;
+  }
+
+  .gradient {
+    top: 6rem;
+    min-width: 150px;
+  }
+
+  .phone {
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gradient {
+    top: 4rem;
+    min-width: 200px;
+    max-width: 250px;
+    margin-top: 0rem;
+    padding-bottom: 3rem;
+    max-height: 400px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .heading-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .flex-wrapper {
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .img-box {
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .gradient {
+    top: 4rem;
+    min-width: 200px;
+    max-width: 300px;
+    margin-top: 0rem;
+    padding-bottom: 3rem;
+    max-height: 500px;
+  }
+
+  .button-div {
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 0rem;
+  }
+
+  .big-heading {
+    font-size: 3.5rem;
+  }
+  .phone {
+    max-width: 300px;
+  }
+}

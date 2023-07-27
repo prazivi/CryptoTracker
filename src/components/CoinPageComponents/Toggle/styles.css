@@ -1,0 +1,9 @@
+.toggle-group {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .toggle-group {
+    margin: 1rem;
+  }
+}

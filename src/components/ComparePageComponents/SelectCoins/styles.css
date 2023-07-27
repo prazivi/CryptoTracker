@@ -1,0 +1,34 @@
+.select-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem 3rem;
+}
+
+.text-select {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary select-days css-vcrgj4-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root::selection {
+   border: 5px solid var(--gold);
+}
+@media only screen and (max-width: 800px) {
+  .select-flex {
+    margin: 1rem 1rem;
+    justify-content: space-between;
+    gap: 0rem;
+  }
+  .text-select {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .text-select p {
+    display: none;
+  }
+  .inverse {
+    flex-direction: column-reverse;
+  }
+}

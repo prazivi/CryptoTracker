@@ -1,0 +1,36 @@
+.search-wrapper {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+
+.search-input {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(21, 21, 21, 0.7);
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  color: var(--white);
+}
+
+.search-input input {
+  width: 100%;
+  background-color:transparent;
+  border: 0px;
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.search-input input:focus {
+  outline: none;
+}
+@media only screen and (max-width: 800px) {
+  .search-input {
+    width: 100%;
+  }
+}

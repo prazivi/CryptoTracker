@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;800&display=swap");
+
+:root {
+  --gold: #ea990e;
+  --white: #ffffff;
+  --black: #111;
+  --grey: #888;
+  --darkgrey: #1b1b1b;
+  --green: #00e41e;
+  --red: #eb0000;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/background.jpg");
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--gold);
+  color: var(--white);
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+/* Width */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--white);
+}
+
+td {
+  text-align: left !important;
+  width: 18%;
+}
+
+.coin-page-div {
+  padding: 1rem;
+  margin: 1rem 3rem;
+  background-color: rgba(27, 27, 27, 0.485);
+  border-radius: 1rem;
+}
+
+.description a {
+  text-decoration: underline;
+}
+
+.description h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.description a:hover {
+  color: var(--gold);
+  transition: all 0.3s;
+}
+
+.select-days {
+  color: var(--white) !important;
+  margin: 1rem;
+  border-color: var(--white) !important;
+}
+
+.top-button {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  color: var(--gold);
+  font-size: 2rem !important;
+  height: 3rem !important;
+  width: 3rem !important;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: var(--darkgrey);
+}
+
+.toggle-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0rem;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .toggle-flex {
+    justify-content: flex-start;
+    margin: 1rem 0rem;
+  }
+
+  p {
+    font-size: 80%;
+  }
+  .coin-page-div {
+    padding: 0.8rem;
+    margin: 0.8rem 1.5rem;
+    border-radius: 0.8rem;
+  }
+
+  .description h2 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+  .select-days {
+    max-width: 90px;
+  }
+  .top-button {
+    right: 1rem;
+    bottom: 1rem;
+  }
+
+
+  .pagination-div {
+    margin: 1rem 0.5rem !important;
+    margin-bottom: 2rem !important;
+  }
+}

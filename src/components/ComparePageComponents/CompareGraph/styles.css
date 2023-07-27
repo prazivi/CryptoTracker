@@ -1,0 +1,8 @@
+.graph-wrapper {
+  padding: 1rem 3rem;
+}
+@media only screen and (max-width: 800px) {
+  .graph-wrapper {
+    margin: 0.5rem 1.5rem;
+  }
+}

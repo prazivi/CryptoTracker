@@ -1,0 +1,27 @@
+.button-wrapper {
+  background-color: var(--gold);
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 3rem;
+  padding: 0.75rem 2rem;
+  min-width: 9rem;
+  text-align: center;
+}
+
+.button-wrapper p {
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.button-wrapper:hover {
+  box-shadow: 3px 4px 15px rgba(244, 201, 11, 0.392);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .button-wrapper p {
+    font-size: 80%;
+  }
+}

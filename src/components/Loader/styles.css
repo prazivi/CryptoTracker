@@ -1,0 +1,14 @@
+.loader-wrapper {
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 101;
+}
+
+.css-18lrjg1-MuiCircularProgress-root{
+  color: var(--gold)!important;
+}

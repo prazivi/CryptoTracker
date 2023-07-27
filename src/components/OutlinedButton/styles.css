@@ -1,0 +1,28 @@
+.outline-button-wrapper {
+  background-color: var(--black);
+  border: 2px solid var(--gold);
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 3rem;
+  padding: 0.75rem 2rem;
+  min-width: 9rem;
+  text-align: center;
+}
+
+.outline-button-wrapper p {
+  color: var(--white);
+  font-weight: 600;
+  margin: 0;
+}
+
+.outline-button-wrapper:hover {
+  background-color: var(--gold);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .outline-button-wrapper p {
+    font-size: 80%;
+  }
+}
