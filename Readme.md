@@ -1,16 +1,18 @@
-# CryptoTracker App
+<h1 align="center">CryptoTracker App</h1>
 
-CryptoTracker is a web application that allows users to track and monitor cryptocurrency data. It provides various features such as comparison tools, interactive graphs, and a user-friendly dashboard to visualize crypto data.
+<p align="center">CryptoTracker is a web application that allows users to track and monitor cryptocurrency data. It provides various features such as comparison tools, interactive graphs, and a user-friendly dashboard to visualize crypto data.</p>
 
-## Key Features
+## Project Snips
 
-### Home Page
+
+### 🏡 Home Page 
 
 ![Home Page](https://github.com/prazivi/CryptoTracker/blob/master/snapshots/Home.png)
 
 The Home Page serves as the landing page of the CryptoTracker app. It offers a brief introduction to the app's features and provides easy navigation to different sections of the application.
 
-### Dashboard
+
+### Dashboard 
 
 ![Dashboard 1](https://github.com/prazivi/CryptoTracker/blob/master/snapshots/Dashboard-1.png)
 
@@ -28,6 +30,7 @@ The Dashboard is an all-in-one interface that displays real-time data of various
 ![Graphs](https://github.com/prazivi/CryptoTracker/blob/master/snapshots/graphs.png)
 
 The Graphs page presents interactive charts and graphs that visualize the historical performance of various cryptocurrencies. Users can analyze the price movements, trading volumes, and other relevant data using these visually appealing graphs.
+
 
 ### Compare Page
 
@@ -54,5 +57,16 @@ The Compare page allows users to compare the performance of different cryptocurr
 5. Explore interactive graphs on the Graphs page to visualize historical crypto data.
 6. Share relevant crypto information with others using the React Web Share library.
 
+## Deployment
 
+The app is deployed on GitHub Pages. [Click here to access CryptoTracker](https://your-github-prazivi.github.io/CryptoTracker).
 
+## Participation
+
+Feel free to contribute to this project by submitting issues or pull requests. Your contributions are valuable in making CryptoTracker even better!
+
+Happy tracking and monitoring of cryptocurrencies with CryptoTracker!
+
+---
+
+*This project is maintained by [prazivi](https://github.com/prazivi).*
