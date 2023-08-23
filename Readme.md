@@ -59,7 +59,7 @@ The Compare page allows users to compare the performance of different cryptocurr
 
 ## Deployment
 
-The app is deployed on GitHub Pages. [Click here to access CryptoTracker](https://your-github-prazivi.github.io/CryptoTracker).
+The app is deployed on GitHub Pages. [Click here to access CryptoTracker](https://your-github-prazivi.github.io/CryptoTracker). Coming Soon!!!!
 
 ## Participation
 
